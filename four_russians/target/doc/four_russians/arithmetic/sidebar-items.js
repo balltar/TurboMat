@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["dot","Calculates the dot product of two slices of equal length."],["dot_gf2",""]]});
