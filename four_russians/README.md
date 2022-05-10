@@ -2,7 +2,7 @@
 
 ## Four Russians Resources
 
-- [General Overview](https://eprint.iacr.org/2006/251.pdf)
+- [General Overview](https://eprint.iacr.org/2006/251.pdf){:target="_blank"}
 - [Matrix Multiplication](https://louridas.github.io/rwa/assignments/four-russians/)
 - [Matrix Inversion](http://www.gregory-bard.com/papers/m4ri.new.pdf)
 
