@@ -191,6 +191,7 @@ pub fn four_russians_rank<const M: Index, const N: Index>(mat: &mut Matrix<Word,
     let mut row_index: Index = 0;
 
     // Randomized Four Russian Method until not a full chunk or no pivot found
+    // TO DO: Change so if no pivot found don't brute force, just shift four russians
     'bigloop: for chunk_start in (0..M-M % bits_per_chunk).step_by(bits_per_chunk) {
         // Seach for pivots for this chunk
         for _ in chunk_start..chunk_start + bits_per_chunk {
@@ -285,4 +286,8 @@ pub fn four_russians_rank<const M: Index, const N: Index>(mat: &mut Matrix<Word,
     }
     let rank = row_index as u32;
     return rank;
+}
+
+pub fn solution<const M: Index, const N: Index>(mat: &mut Matrix<Word, {M}, {N}>) -> Option<u32> {
+    return None;
 }
